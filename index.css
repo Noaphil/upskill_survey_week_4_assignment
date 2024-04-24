@@ -3,7 +3,14 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+h1 {
+    text-align: center;
+    margin: 20px;
+    width: 10;
+    height: 5;
+    color: antiquewhite;
+    background-color: rgb(18, 33, 46);
+}
 body {
     background-image: url(./myassignment-image.jpg);
     font-family: system-ui, -apple-system,

@@ -6,8 +6,6 @@
 h1 {
     text-align: center;
     margin: 20px;
-    width: 10;
-    height: 5;
     color: antiquewhite;
     background-color: rgb(18, 33, 46);
 }
@@ -21,7 +19,7 @@ body {
 
 .container {
     margin-left: 450px;
-    margin-top: 200px;
+    margin-top: 40px;
     background-color: white;
     width: 400px;
     height: 900px;
@@ -76,6 +74,7 @@ body {
 .cooment-suggestion {
     display: flex;
     flex-direction: column;
+    resize: vertical;
 }
 
 .text {
@@ -83,8 +82,8 @@ body {
     height: 30px;
 }
 
-.input {
-    width: 300px;
+.button {
+    width: 100px;
     background-color: rgb(162, 192, 216);
 }
 
